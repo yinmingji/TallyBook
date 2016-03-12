@@ -1,0 +1,508 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		43278CAD1C93FC5400D955F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CAC1C93FC5400D955F1 /* AppDelegate.swift */; };
+		43278CAF1C93FC5400D955F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CAE1C93FC5400D955F1 /* ViewController.swift */; };
+		43278CB21C93FC5400D955F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB01C93FC5400D955F1 /* Main.storyboard */; };
+		43278CB41C93FC5400D955F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB31C93FC5400D955F1 /* Assets.xcassets */; };
+		43278CB71C93FC5400D955F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */; };
+		43278CC21C93FC5400D955F1 /* TallyBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CC11C93FC5400D955F1 /* TallyBookTests.swift */; };
+		43278CCD1C93FC5400D955F1 /* TallyBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CCC1C93FC5400D955F1 /* TallyBookUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		43278CBE1C93FC5400D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CA11C93FC5400D955F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43278CA81C93FC5400D955F1;
+			remoteInfo = TallyBook;
+		};
+		43278CC91C93FC5400D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CA11C93FC5400D955F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 43278CA81C93FC5400D955F1;
+			remoteInfo = TallyBook;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		43278CA91C93FC5400D955F1 /* TallyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43278CAC1C93FC5400D955F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		43278CAE1C93FC5400D955F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		43278CB11C93FC5400D955F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		43278CB31C93FC5400D955F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		43278CB61C93FC5400D955F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43278CB81C93FC5400D955F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43278CBD1C93FC5400D955F1 /* TallyBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43278CC11C93FC5400D955F1 /* TallyBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyBookTests.swift; sourceTree = "<group>"; };
+		43278CC31C93FC5400D955F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43278CC81C93FC5400D955F1 /* TallyBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		43278CCC1C93FC5400D955F1 /* TallyBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyBookUITests.swift; sourceTree = "<group>"; };
+		43278CCE1C93FC5400D955F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		43278CA61C93FC5400D955F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CBA1C93FC5400D955F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CC51C93FC5400D955F1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		43278CA01C93FC5400D955F1 = {
+			isa = PBXGroup;
+			children = (
+				43278CAB1C93FC5400D955F1 /* TallyBook */,
+				43278CC01C93FC5400D955F1 /* TallyBookTests */,
+				43278CCB1C93FC5400D955F1 /* TallyBookUITests */,
+				43278CAA1C93FC5400D955F1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		43278CAA1C93FC5400D955F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43278CA91C93FC5400D955F1 /* TallyBook.app */,
+				43278CBD1C93FC5400D955F1 /* TallyBookTests.xctest */,
+				43278CC81C93FC5400D955F1 /* TallyBookUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		43278CAB1C93FC5400D955F1 /* TallyBook */ = {
+			isa = PBXGroup;
+			children = (
+				43278CAC1C93FC5400D955F1 /* AppDelegate.swift */,
+				43278CAE1C93FC5400D955F1 /* ViewController.swift */,
+				43278CB01C93FC5400D955F1 /* Main.storyboard */,
+				43278CB31C93FC5400D955F1 /* Assets.xcassets */,
+				43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */,
+				43278CB81C93FC5400D955F1 /* Info.plist */,
+			);
+			path = TallyBook;
+			sourceTree = "<group>";
+		};
+		43278CC01C93FC5400D955F1 /* TallyBookTests */ = {
+			isa = PBXGroup;
+			children = (
+				43278CC11C93FC5400D955F1 /* TallyBookTests.swift */,
+				43278CC31C93FC5400D955F1 /* Info.plist */,
+			);
+			path = TallyBookTests;
+			sourceTree = "<group>";
+		};
+		43278CCB1C93FC5400D955F1 /* TallyBookUITests */ = {
+			isa = PBXGroup;
+			children = (
+				43278CCC1C93FC5400D955F1 /* TallyBookUITests.swift */,
+				43278CCE1C93FC5400D955F1 /* Info.plist */,
+			);
+			path = TallyBookUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		43278CA81C93FC5400D955F1 /* TallyBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43278CD11C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBook" */;
+			buildPhases = (
+				43278CA51C93FC5400D955F1 /* Sources */,
+				43278CA61C93FC5400D955F1 /* Frameworks */,
+				43278CA71C93FC5400D955F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TallyBook;
+			productName = TallyBook;
+			productReference = 43278CA91C93FC5400D955F1 /* TallyBook.app */;
+			productType = "com.apple.product-type.application";
+		};
+		43278CBC1C93FC5400D955F1 /* TallyBookTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43278CD41C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookTests" */;
+			buildPhases = (
+				43278CB91C93FC5400D955F1 /* Sources */,
+				43278CBA1C93FC5400D955F1 /* Frameworks */,
+				43278CBB1C93FC5400D955F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43278CBF1C93FC5400D955F1 /* PBXTargetDependency */,
+			);
+			name = TallyBookTests;
+			productName = TallyBookTests;
+			productReference = 43278CBD1C93FC5400D955F1 /* TallyBookTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		43278CC71C93FC5400D955F1 /* TallyBookUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 43278CD71C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookUITests" */;
+			buildPhases = (
+				43278CC41C93FC5400D955F1 /* Sources */,
+				43278CC51C93FC5400D955F1 /* Frameworks */,
+				43278CC61C93FC5400D955F1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				43278CCA1C93FC5400D955F1 /* PBXTargetDependency */,
+			);
+			name = TallyBookUITests;
+			productName = TallyBookUITests;
+			productReference = 43278CC81C93FC5400D955F1 /* TallyBookUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		43278CA11C93FC5400D955F1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = YinmingJi;
+				TargetAttributes = {
+					43278CA81C93FC5400D955F1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G3BGBWNLPT;
+					};
+					43278CBC1C93FC5400D955F1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G3BGBWNLPT;
+						TestTargetID = 43278CA81C93FC5400D955F1;
+					};
+					43278CC71C93FC5400D955F1 = {
+						CreatedOnToolsVersion = 7.2;
+						DevelopmentTeam = G3BGBWNLPT;
+						TestTargetID = 43278CA81C93FC5400D955F1;
+					};
+				};
+			};
+			buildConfigurationList = 43278CA41C93FC5400D955F1 /* Build configuration list for PBXProject "TallyBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 43278CA01C93FC5400D955F1;
+			productRefGroup = 43278CAA1C93FC5400D955F1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				43278CA81C93FC5400D955F1 /* TallyBook */,
+				43278CBC1C93FC5400D955F1 /* TallyBookTests */,
+				43278CC71C93FC5400D955F1 /* TallyBookUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		43278CA71C93FC5400D955F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43278CB71C93FC5400D955F1 /* LaunchScreen.storyboard in Resources */,
+				43278CB41C93FC5400D955F1 /* Assets.xcassets in Resources */,
+				43278CB21C93FC5400D955F1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CBB1C93FC5400D955F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CC61C93FC5400D955F1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		43278CA51C93FC5400D955F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43278CAF1C93FC5400D955F1 /* ViewController.swift in Sources */,
+				43278CAD1C93FC5400D955F1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CB91C93FC5400D955F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43278CC21C93FC5400D955F1 /* TallyBookTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		43278CC41C93FC5400D955F1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43278CCD1C93FC5400D955F1 /* TallyBookUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		43278CBF1C93FC5400D955F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43278CA81C93FC5400D955F1 /* TallyBook */;
+			targetProxy = 43278CBE1C93FC5400D955F1 /* PBXContainerItemProxy */;
+		};
+		43278CCA1C93FC5400D955F1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 43278CA81C93FC5400D955F1 /* TallyBook */;
+			targetProxy = 43278CC91C93FC5400D955F1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		43278CB01C93FC5400D955F1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43278CB11C93FC5400D955F1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				43278CB61C93FC5400D955F1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		43278CCF1C93FC5400D955F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		43278CD01C93FC5400D955F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		43278CD21C93FC5400D955F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TallyBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		43278CD31C93FC5400D955F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = TallyBook/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBook;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		43278CD51C93FC5400D955F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TallyBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyBook.app/TallyBook";
+			};
+			name = Debug;
+		};
+		43278CD61C93FC5400D955F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TallyBookTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBookTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TallyBook.app/TallyBook";
+			};
+			name = Release;
+		};
+		43278CD81C93FC5400D955F1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TallyBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TallyBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		43278CD91C93FC5400D955F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TallyBookUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBookUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TallyBook;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		43278CA41C93FC5400D955F1 /* Build configuration list for PBXProject "TallyBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43278CCF1C93FC5400D955F1 /* Debug */,
+				43278CD01C93FC5400D955F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		43278CD11C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43278CD21C93FC5400D955F1 /* Debug */,
+				43278CD31C93FC5400D955F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43278CD41C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43278CD51C93FC5400D955F1 /* Debug */,
+				43278CD61C93FC5400D955F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		43278CD71C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				43278CD81C93FC5400D955F1 /* Debug */,
+				43278CD91C93FC5400D955F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 43278CA11C93FC5400D955F1 /* Project object */;
+}
