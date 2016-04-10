@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  TallyBook
+//
+//  Created by QianluFan on 3/12/16.
+//  Copyright © 2016 YinmingJi. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+#ifdef __OBJC__
+#define IOS8_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"8.0"] != NSOrderedAscending )
+#define IOS7_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"7.0"] != NSOrderedAscending )
+#define IOS6_OR_LATER   ( [[[UIDevice currentDevice] systemVersion] compare:@"6.0"] != NSOrderedAscending )
+#define IOS5_OR_EARLIER   ( [[[UIDevice currentDevice] systemVersion] compare:@"5.0"] != NSOrderedDescending )
+
+#import "GlobalDef.swift"
+
+#endif
+
+#endif /* PrefixHeader_pch */

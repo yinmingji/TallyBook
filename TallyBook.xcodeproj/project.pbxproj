@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4302EA731CB7ECD1003F3B5D /* CoreDataBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302EA721CB7ECD1003F3B5D /* CoreDataBase.swift */; };
+		4302EAB91CB7EE49003F3B5D /* TallyBookModels.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4302EAB71CB7EE49003F3B5D /* TallyBookModels.xcdatamodeld */; };
+		4302EABC1CB7F4BD003F3B5D /* BillManagedObject+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302EABA1CB7F4BD003F3B5D /* BillManagedObject+CoreDataProperties.swift */; };
+		4302EABD1CB7F4BD003F3B5D /* BillManagedObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302EABB1CB7F4BD003F3B5D /* BillManagedObject.swift */; };
+		4302EAC11CB9E89A003F3B5D /* CalculatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4302EABF1CB9E89A003F3B5D /* CalculatorView.swift */; };
 		43278CAD1C93FC5400D955F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CAC1C93FC5400D955F1 /* AppDelegate.swift */; };
 		43278CAF1C93FC5400D955F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CAE1C93FC5400D955F1 /* ViewController.swift */; };
 		43278CB21C93FC5400D955F1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB01C93FC5400D955F1 /* Main.storyboard */; };
 		43278CB41C93FC5400D955F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB31C93FC5400D955F1 /* Assets.xcassets */; };
-		43278CB71C93FC5400D955F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */; };
 		43278CC21C93FC5400D955F1 /* TallyBookTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CC11C93FC5400D955F1 /* TallyBookTests.swift */; };
 		43278CCD1C93FC5400D955F1 /* TallyBookUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278CCC1C93FC5400D955F1 /* TallyBookUITests.swift */; };
+		43278CDC1C9464EA00D955F1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43278CDA1C9464EA00D955F1 /* LaunchScreen.storyboard */; };
+		43278D0E1C946F2400D955F1 /* GlobalDef.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43278D0D1C946F2400D955F1 /* GlobalDef.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,15 +37,61 @@
 			remoteGlobalIDString = 43278CA81C93FC5400D955F1;
 			remoteInfo = TallyBook;
 		};
+		43278CFE1C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247AD31C3F04ED00AE3E12;
+			remoteInfo = "SQLite iOS";
+		};
+		43278D001C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247ADD1C3F04ED00AE3E12;
+			remoteInfo = "SQLiteTests iOS";
+		};
+		43278D021C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B3C1C3F3ED000AE3E12;
+			remoteInfo = "SQLite Mac";
+		};
+		43278D041C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EE247B451C3F3ED000AE3E12;
+			remoteInfo = "SQLiteTests Mac";
+		};
+		43278D061C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E5A1C6BB0F50062603F;
+			remoteInfo = "SQLite tvOS";
+		};
+		43278D081C946C0200D955F1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 03A65E631C6BB0F60062603F;
+			remoteInfo = "SQLiteTests tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4302EA721CB7ECD1003F3B5D /* CoreDataBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CoreDataBase.swift; sourceTree = "<group>"; };
+		4302EAB81CB7EE49003F3B5D /* TallyBookModels.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TallyBookModels.xcdatamodel; sourceTree = "<group>"; };
+		4302EABA1CB7F4BD003F3B5D /* BillManagedObject+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "BillManagedObject+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		4302EABB1CB7F4BD003F3B5D /* BillManagedObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BillManagedObject.swift; sourceTree = "<group>"; };
+		4302EABF1CB9E89A003F3B5D /* CalculatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorView.swift; sourceTree = "<group>"; };
 		43278CA91C93FC5400D955F1 /* TallyBook.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TallyBook.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43278CAC1C93FC5400D955F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43278CAE1C93FC5400D955F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43278CB11C93FC5400D955F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		43278CB31C93FC5400D955F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		43278CB61C93FC5400D955F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		43278CB81C93FC5400D955F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		43278CBD1C93FC5400D955F1 /* TallyBookTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyBookTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43278CC11C93FC5400D955F1 /* TallyBookTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyBookTests.swift; sourceTree = "<group>"; };
@@ -47,6 +99,10 @@
 		43278CC81C93FC5400D955F1 /* TallyBookUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TallyBookUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		43278CCC1C93FC5400D955F1 /* TallyBookUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TallyBookUITests.swift; sourceTree = "<group>"; };
 		43278CCE1C93FC5400D955F1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		43278CDB1C9464EA00D955F1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SQLite.xcodeproj; path = "../../../Downloads/SQLite.swift-master/SQLite.xcodeproj"; sourceTree = "<group>"; };
+		43278D0C1C946E8700D955F1 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = PrefixHeader.pch; path = ../PrefixHeader.pch; sourceTree = "<group>"; };
+		43278D0D1C946F2400D955F1 /* GlobalDef.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = GlobalDef.swift; path = ../GlobalDef.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +134,7 @@
 			isa = PBXGroup;
 			children = (
 				43278CAB1C93FC5400D955F1 /* TallyBook */,
+				43278CF51C946BF600D955F1 /* ThirdParty */,
 				43278CC01C93FC5400D955F1 /* TallyBookTests */,
 				43278CCB1C93FC5400D955F1 /* TallyBookUITests */,
 				43278CAA1C93FC5400D955F1 /* Products */,
@@ -99,10 +156,17 @@
 			children = (
 				43278CAC1C93FC5400D955F1 /* AppDelegate.swift */,
 				43278CAE1C93FC5400D955F1 /* ViewController.swift */,
+				4302EABF1CB9E89A003F3B5D /* CalculatorView.swift */,
 				43278CB01C93FC5400D955F1 /* Main.storyboard */,
 				43278CB31C93FC5400D955F1 /* Assets.xcassets */,
-				43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */,
+				43278CDA1C9464EA00D955F1 /* LaunchScreen.storyboard */,
 				43278CB81C93FC5400D955F1 /* Info.plist */,
+				43278D0C1C946E8700D955F1 /* PrefixHeader.pch */,
+				43278D0D1C946F2400D955F1 /* GlobalDef.swift */,
+				4302EA721CB7ECD1003F3B5D /* CoreDataBase.swift */,
+				4302EAB71CB7EE49003F3B5D /* TallyBookModels.xcdatamodeld */,
+				4302EABA1CB7F4BD003F3B5D /* BillManagedObject+CoreDataProperties.swift */,
+				4302EABB1CB7F4BD003F3B5D /* BillManagedObject.swift */,
 			);
 			path = TallyBook;
 			sourceTree = "<group>";
@@ -123,6 +187,27 @@
 				43278CCE1C93FC5400D955F1 /* Info.plist */,
 			);
 			path = TallyBookUITests;
+			sourceTree = "<group>";
+		};
+		43278CF51C946BF600D955F1 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */,
+			);
+			name = ThirdParty;
+			sourceTree = "<group>";
+		};
+		43278CF61C946C0200D955F1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				43278CFF1C946C0200D955F1 /* SQLite.framework */,
+				43278D011C946C0200D955F1 /* SQLiteTests iOS.xctest */,
+				43278D031C946C0200D955F1 /* SQLite.framework */,
+				43278D051C946C0200D955F1 /* SQLiteTests Mac.xctest */,
+				43278D071C946C0200D955F1 /* SQLite.framework */,
+				43278D091C946C0200D955F1 /* SQLiteTests tvOS.xctest */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -193,7 +278,7 @@
 				TargetAttributes = {
 					43278CA81C93FC5400D955F1 = {
 						CreatedOnToolsVersion = 7.2;
-						DevelopmentTeam = G3BGBWNLPT;
+						DevelopmentTeam = AG93A23W76;
 					};
 					43278CBC1C93FC5400D955F1 = {
 						CreatedOnToolsVersion = 7.2;
@@ -218,6 +303,12 @@
 			mainGroup = 43278CA01C93FC5400D955F1;
 			productRefGroup = 43278CAA1C93FC5400D955F1 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 43278CF61C946C0200D955F1 /* Products */;
+					ProjectRef = 43278CDF1C946BA000D955F1 /* SQLite.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				43278CA81C93FC5400D955F1 /* TallyBook */,
@@ -227,12 +318,57 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		43278CFF1C946C0200D955F1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43278CFE1C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43278D011C946C0200D955F1 /* SQLiteTests iOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests iOS.xctest";
+			remoteRef = 43278D001C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43278D031C946C0200D955F1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43278D021C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43278D051C946C0200D955F1 /* SQLiteTests Mac.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests Mac.xctest";
+			remoteRef = 43278D041C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43278D071C946C0200D955F1 /* SQLite.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SQLite.framework;
+			remoteRef = 43278D061C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		43278D091C946C0200D955F1 /* SQLiteTests tvOS.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = "SQLiteTests tvOS.xctest";
+			remoteRef = 43278D081C946C0200D955F1 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		43278CA71C93FC5400D955F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				43278CB71C93FC5400D955F1 /* LaunchScreen.storyboard in Resources */,
+				43278CDC1C9464EA00D955F1 /* LaunchScreen.storyboard in Resources */,
 				43278CB41C93FC5400D955F1 /* Assets.xcassets in Resources */,
 				43278CB21C93FC5400D955F1 /* Main.storyboard in Resources */,
 			);
@@ -261,6 +397,12 @@
 			files = (
 				43278CAF1C93FC5400D955F1 /* ViewController.swift in Sources */,
 				43278CAD1C93FC5400D955F1 /* AppDelegate.swift in Sources */,
+				4302EABD1CB7F4BD003F3B5D /* BillManagedObject.swift in Sources */,
+				43278D0E1C946F2400D955F1 /* GlobalDef.swift in Sources */,
+				4302EAC11CB9E89A003F3B5D /* CalculatorView.swift in Sources */,
+				4302EABC1CB7F4BD003F3B5D /* BillManagedObject+CoreDataProperties.swift in Sources */,
+				4302EAB91CB7EE49003F3B5D /* TallyBookModels.xcdatamodeld in Sources */,
+				4302EA731CB7ECD1003F3B5D /* CoreDataBase.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,10 +446,10 @@
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		43278CB51C93FC5400D955F1 /* LaunchScreen.storyboard */ = {
+		43278CDA1C9464EA00D955F1 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				43278CB61C93FC5400D955F1 /* Base */,
+				43278CDB1C9464EA00D955F1 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -400,6 +542,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TallyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBook;
@@ -411,6 +555,8 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = TallyBook/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.yinmingji.TallyBook;
@@ -485,6 +631,7 @@
 				43278CD31C93FC5400D955F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43278CD41C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookTests" */ = {
 			isa = XCConfigurationList;
@@ -493,6 +640,7 @@
 				43278CD61C93FC5400D955F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		43278CD71C93FC5400D955F1 /* Build configuration list for PBXNativeTarget "TallyBookUITests" */ = {
 			isa = XCConfigurationList;
@@ -501,8 +649,22 @@
 				43278CD91C93FC5400D955F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		4302EAB71CB7EE49003F3B5D /* TallyBookModels.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				4302EAB81CB7EE49003F3B5D /* TallyBookModels.xcdatamodel */,
+			);
+			currentVersion = 4302EAB81CB7EE49003F3B5D /* TallyBookModels.xcdatamodel */;
+			path = TallyBookModels.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 43278CA11C93FC5400D955F1 /* Project object */;
 }
